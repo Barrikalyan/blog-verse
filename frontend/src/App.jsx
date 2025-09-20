@@ -1,8 +1,9 @@
+import App2 from './App2'
 function App() {
   return (
     <>
 
-      <div className="bg-indigo-50 flex h-screen items-center justify-center">
+      {/* <div className="bg-indigo-50 flex h-screen items-center justify-center">
         <div className="absolute bg-white h-30 min-w-screen top-0 flex justify-evenly p-10">
           <div className="flex"><img src="./logo.png" alt="logo" />
             <p className="font-bold text-2xl">
@@ -15,7 +16,7 @@ function App() {
           <p>
             Sign In
           </p>
-          <p className="bg-blue-600 hover:bg-blue-800 hover:cursor-pointer text-fuchsia-50 font-bold text-xl rounded-2xl pl-3 pt-1 w-25"> Sign Up</p>
+          <p className="bg-blue-600 hover:bg-blue-800 hover:cursor-pointer text-fuchsia-50 font-bold text-xl rounded-md pl-3 pt-1 w-25"> Sign Up</p>
 
         </div>
         <div className="h-125  flex-col bg-white w-110 flex items-center justify-center rounded-2xl  shadow-2xl shadow-blue-500 ">
@@ -25,7 +26,7 @@ function App() {
           <input type="email" className="border-2 p-7 rounded-2xl w-80 h-13" placeholder="sample@gmail.com" />&nbsp;
 
           <p className="pr-55 font-medium">Password:</p>
-          <input type="password" className="border-2 p-7 rounded-2xl w-80 h-13" placeholder="sample@gmail.com" />&nbsp;
+          <input type="password" className="border-2 p-7 rounded-2xl w-80 h-13" placeholder="sample123" />&nbsp;
           <div className="flex">
             <input type="checkbox" className="hover:cursor-pointer" /> &nbsp;&nbsp;&nbsp;&nbsp;<p>Remember me</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="" className="text-blue-800 font-medium"> Forgot Password ?</a>
@@ -38,7 +39,8 @@ function App() {
         </div>
 
 
-      </div>
+      </div> */}
+      <App2 />
       
     </>
   )
