@@ -11,7 +11,7 @@ function Navbar(){
             </p>
           </div>
           <div className="relative">
-          <Link to ="/home">
+          <Link to ="/">
             Home
           </Link>    <House className="absolute bottom-4 right-12"/>
           </div>
@@ -25,4 +25,5 @@ function Navbar(){
         </>
     )
 }
+
 export default Navbar;
